@@ -47,6 +47,8 @@ background-image: url(./img/HTML.png);
 }
 #brotherone{
     align-self: center;
+    text-align: center;
+    margin: auto 0;
     justify-content: center;
 }
 
