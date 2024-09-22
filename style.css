@@ -60,3 +60,8 @@ background-image: url(./img/HTML.png);
     color: rgb(0, 37, 94);
     justify-content: center;
 }
+
+.footer{
+text-align: center;
+    margin: auto 0;
+}
