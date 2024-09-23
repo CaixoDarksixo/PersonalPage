@@ -3,19 +3,18 @@
 body{
 font-size : 25px;
 background-image: url(./img/HTML.png);
+font-family: "Space Grotesk", sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 100vh;
 
 }
 
 .main{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-
-    background-image: url(./img/HTML2.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    max-width: 1500px;
+    background-color: rgba(182, 211, 240, 0.541);
+    border-radius: 10px;
+    max-width: 670px;
     margin: 0 auto;
     padding : 25px;
     display:flex;
@@ -40,28 +39,31 @@ background-image: url(./img/HTML.png);
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-
     align-self: center;
     padding: 50px;
     color : rgb(1, 1, 2);
 }
-#brotherone{
-    align-self: center;
-    text-align: center;
-    margin: auto 0;
-    justify-content: center;
-}
 
-#brother{
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    font-size: 20px;
+.brother{
+    text-decoration: none;
     color: rgb(0, 37, 94);
-    justify-content: center;
+    transition: 0.2s;
+    padding: 15px 0px;
 }
 
-.footer{
-text-align: center;
-    margin: auto 0;
+.brother:hover{
+    text-decoration:underline;
+    color: rgb(159, 198, 255);
 }
+.brotherone{
+    background-color:  rgba(182, 211, 240, 0.541);
+    border-radius: 10px;
+    padding: 15px 0px;
+    max-width: 500px;
+    transition: 0.2s;
+}
+.brotherone:hover{
+    background-color: rgb(0, 37, 94);
+}
+
+
